@@ -1,0 +1,76 @@
+
+/* media queries  */
+@media (max-width: 1023px){
+
+    html{
+        font-size:55%;
+    }
+
+    header{
+        padding: 15px 10px;
+    }
+
+    .section{
+        padding: 70px 0 0;
+    }
+
+    .footer .footer-container{
+        margin-top:40px;
+    }
+
+}
+
+@media (max-width:739px){
+
+    .header-icons #header-menu-bars{
+        display: inline-block;
+    }
+
+    .header-navbar{
+        position: absolute;
+        left: 0; right: 0; top: 100%;
+        background:#f7f7f7;
+        border-top:  1px solid #333;
+        border-bottom:  1px solid #333;
+        transition: .2s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header-navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .header-navbar a{
+        display: block;
+        padding: 15px;
+        margin: 15px;
+        background:#fff;
+        border: 1px solid #333;
+        box-shadow: 0 5px 1rem rgba(0,0,0,.1);
+        border-radius: 5px;
+    }
+
+
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size:50%;
+    }
+
+    .contact .contact-container form .inputBox input{
+        width: 100%;
+    }
+
+    .contact .icons-container .icons{
+        margin-bottom: 10px;
+    }
+
+    .contact .contact-container form{
+      margin-bottom: 10px;
+    }
+    
+
+}
